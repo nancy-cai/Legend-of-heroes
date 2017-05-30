@@ -1,0 +1,89 @@
+#inner {
+    transform-style: preserve-3d;
+    -webkit-animation-name: spinner2;
+    animation-name: spinner2;
+    -webkit-animation-timing-function:linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-transform-origin: 80px 0 0;
+    transform-origin: 80px 0 0;
+}
+
+#inner:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+
+.hamburger {
+    -webkit-animation-name: hamburgerRotate;
+    animation-name: hamburgerRotate;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+
+@-webkit-keyframes spinner2 {
+    0% {      
+    }
+    10% {
+        -webkit-transform: rotateX(60deg);
+        transform: rotateX(60deg);
+    }
+    35% {
+        -webkit-transform: rotateX(-70deg);
+        transform: rotateX(-70deg);
+    }
+
+    50% {
+        -webkit-transform: rotateY(-30deg);
+        transform: rotateY(-30deg);
+    }
+    100% {
+        -webkit-transform: rotateY(330deg);
+        transform: rotateY(330deg);
+    }
+    
+}
+
+@keyframes spinner2 {
+    0% {      
+    }
+    10% {
+        -webkit-transform: rotateX(60deg);
+        transform: rotateX(60deg);
+    }
+    35% {
+        -webkit-transform: rotateX(-70deg);
+        transform: rotateX(-70deg);
+    }
+
+    50% {
+        -webkit-transform: rotateY(-30deg);
+        transform: rotateY(-30deg);
+    }
+    100% {
+        -webkit-transform: rotateY(330deg);
+        transform: rotateY(330deg);
+    }
+}
+
+@-webkit-keyframes hamburgerRotate {
+    100%{
+        -webkit-transform: rotateZ(90deg);
+        transform: rotateZ(90deg);
+    }
+}
+
+
+@keyframes hamburgerRotate {
+    100%{
+        -webkit-transform: rotateZ(90deg);
+        transform: rotateZ(90deg);
+    }
+}
