@@ -1,4 +1,5 @@
 #inner {
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     -webkit-animation-name: spinner2;
     animation-name: spinner2;
