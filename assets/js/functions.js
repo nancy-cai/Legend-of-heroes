@@ -15,6 +15,11 @@ function resizeBackground (){
   }
 }
 
+
+function changeUrl(){
+    window.location.hash  = $(this).text().toLowerCase(); 
+}
+
 function emptyAvatar() {
     $('#second-gallary').empty();
     $('#second-gallary').css("margin-top","30px");
@@ -72,6 +77,7 @@ $('.nav-mobile-toggle').click(toggleImgClass);
 
 $('.horizontal-nav-li').click(displayInnerNav);
 
+$('.dropdown-li').click(changeUrl());
 $('.dropdown-li').click(changeBackground);
 $('.dropdown-li').click(emptyAvatar);
 $('.dropdown-li').click(changeAvartar);

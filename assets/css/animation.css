@@ -33,12 +33,12 @@
     0% {      
     }
     10% {
-        -webkit-transform: rotateX(60deg);
-        transform: rotateX(60deg);
+        -webkit-transform: rotateX(50deg);
+        transform: rotateX(50deg);
     }
     35% {
-        -webkit-transform: rotateX(-70deg);
-        transform: rotateX(-70deg);
+        -webkit-transform: rotateX(-60deg);
+        transform: rotateX(-60deg);
     }
 
     50% {
@@ -56,12 +56,12 @@
     0% {      
     }
     10% {
-        -webkit-transform: rotateX(60deg);
-        transform: rotateX(60deg);
+        -webkit-transform: rotateX(50deg);
+        transform: rotateX(50deg);
     }
     35% {
-        -webkit-transform: rotateX(-70deg);
-        transform: rotateX(-70deg);
+        -webkit-transform: rotateX(-60deg);
+        transform: rotateX(-60deg);
     }
 
     50% {
