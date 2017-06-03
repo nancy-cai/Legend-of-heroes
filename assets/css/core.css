@@ -170,6 +170,7 @@
     height: 200px;
     width: 200px;
     padding: 0;
+    position: relative;
 }
 
 #third {
@@ -236,4 +237,11 @@
   overflow: hidden; 
 }
 
-/*tried inline-block, vertical-align on both parent and child divs, absolute top:0;
+
+
+
+
+
+
+
+/*https://github.com/fofr/paulrhayes.com-experiments/tree/master/cube-3d
